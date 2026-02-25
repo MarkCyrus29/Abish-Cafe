@@ -68,10 +68,10 @@ export default function MenuPage() {
         <section className="bg-white border-b border-black/5 py-12 md:py-16">
           <div className="mx-auto max-w-6xl px-6">
             <p className="text-xs tracking-[0.35em] uppercase text-accent mb-3">
-              Draft Page
+              Menu Page
             </p>
             <h1 className="font-serif text-5xl md:text-6xl font-bold mb-4">
-              Menu (Draft)
+              Menu
             </h1>
             <p className="text-[#1C1917]/70 max-w-2xl text-lg leading-relaxed">
               This is a layout preview. Final menu categories, item names, and

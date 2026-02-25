@@ -68,7 +68,7 @@ export default function HomePage() {
                     href="/menu"
                     className="inline-flex items-center justify-center rounded-lg bg-accent px-8 py-3 font-semibold text-background hover:bg-accent/80 transition-colors"
                   >
-                    View Menu (Draft)
+                    View Menu
                   </Link>
                   <Link
                     href="/visit-us"
@@ -78,14 +78,17 @@ export default function HomePage() {
                   </Link>
                 </div>
 
-                <div className="mt-10 flex flex-col sm:flex-row gap-6 text-white/90">
+                <div className="mt-10 flex flex-col  gap-3 text-white/90">
                   <div className="flex items-center gap-3">
                     <div className="h-10 w-10 rounded-lg bg-white/10 border border-white/15 flex items-center justify-center">
                       <MapPin size={18} />
                     </div>
                     <div className="text-sm">
                       <p className="font-semibold">Location</p>
-                      <p className="text-white/80">[Add address here]</p>
+                      <p className="text-white/80">
+                        Purok 7 Barangay Sampaguita, Lipa City, Philippines,
+                        4217
+                      </p>
                     </div>
                   </div>
 
@@ -95,15 +98,10 @@ export default function HomePage() {
                     </div>
                     <div className="text-sm">
                       <p className="font-semibold">Hours</p>
-                      <p className="text-white/80">[Add hours here]</p>
+                      <p className="text-white/80">----------</p>
                     </div>
                   </div>
                 </div>
-
-                <p className="mt-6 text-xs text-white/65">
-                  *This is a draft layout — content and photos will be replaced
-                  with Abish Cafe's official details.
-                </p>
               </div>
             </div>
           </div>
