@@ -71,7 +71,7 @@ export default function HomePage() {
                     View Menu (Draft)
                   </Link>
                   <Link
-                    href="/visit"
+                    href="/visit-us"
                     className="inline-flex items-center justify-center rounded-lg border border-white/70 px-8 py-3 font-semibold text-white hover:bg-white/10 transition-colors"
                   >
                     Visit Us
